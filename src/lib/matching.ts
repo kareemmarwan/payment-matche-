@@ -83,7 +83,6 @@ function toNumber(v: unknown): number {
   return isNaN(n) ? 0 : n;
 }
 
-const PHONE_RE = /(\+?\d[\d\s\-]{7,}\d)/;
 
 function normalizePhone(p?: string): string {
   if (!p) return "";
