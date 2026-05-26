@@ -1,6 +1,5 @@
 
 // قم بإضافة هذا السطر في أعلى الملف
-import '@fontsource-variable/cairo';
 
 import { useMemo, useState, useEffect } from "react";
 import {
